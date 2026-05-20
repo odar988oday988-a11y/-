@@ -1,2 +1,23 @@
-# -
-كل ما يخص فري فاير 
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقنيات فري فاير</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {margin: 0;padding: 0;box-sizing: border-box;}
+        body {font-family: 'Tajawal', sans-serif;background: #000;color: #fff;overflow-x: hidden;}
+        .hero {position: relative;min-height: 100vh;background: linear-gradient(180deg, #0a0000 0%, #1a0000 30%, #2d0000 60%, #0d0000 100%);display: flex;flex-direction: column;align-items: center;justify-content: flex-start;padding-top: 60px;overflow: hidden;}
+        .stars {position: absolute;top: 0;left: 0;width: 100%;height: 100%;pointer-events: none;}
+        .star {position: absolute;width: 2px;height: 2px;background: #fff;border-radius: 50%;animation: twinkle 2s infinite;}
+        @keyframes twinkle {0%, 100% { opacity: 0.3; } 50% { opacity: 1; }}
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="stars"></div>
+        <h1>تقنيات فري فاير</h1>
+    </div>
+</body>
+</html>
